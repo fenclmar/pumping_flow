@@ -17,7 +17,7 @@ add_II_to_SPGflow <- function (spg_flow, fast = NULL, slow = NULL, gw = NULL) {
     # spg_flow - SPG flow object with sewage flow and substance concentration
     # fast - time series (xts) with fast inflow
     # slow - time series (xts) with slow inflow
-    # slow - time series (xts) with groundwater infiltration
+    # gw - time series (xts) with groundwater infiltration
     
     require(xts)
     
