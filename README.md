@@ -13,5 +13,8 @@ Functions to treat irregular times steps, missing values and outliers in real pu
 ## fun_Taarnby.R
 Function for converting pump sump levels into volumes. Desingend specificaly for Taarnby pump sumps.
 
-## fun_virtual.R
+## fun_virtual_II.R
 Functions to support realistic generating of virtual inflow/infiltration patterns. Functions are designed to work with sewage pattern generator (SPG) https://github.com/scheidan/SPG
+
+## muskingum_simulation.cpp
+Muskingum routing in C used for transformation of rainfall to runoff when generating fast and slow I/I. Coded and kindly provided by Morten Grum, WaterZerv.
